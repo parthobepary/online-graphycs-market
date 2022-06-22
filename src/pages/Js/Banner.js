@@ -1,12 +1,12 @@
 import cover from "../../assets/cover.jpeg";
-import '../Css/banner.css';
+import "../Css/banner.css";
 
 const Banner = () => {
   return (
-    <div id="home" className="banner-height">
+    <div id="home" className="mb-10">
       <div
         class="hero min-h-screen banner-height"
-        style={{ backgroundImage: `url(${cover})`}}
+        style={{ backgroundImage: `url(${cover})` }}
       >
         <div class="hero-overlay bg-opacity-40"></div>
         <div class="hero-content text-center text-neutral-content">
