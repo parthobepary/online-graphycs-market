@@ -3,7 +3,7 @@ import "../Css/banner.css";
 
 const Banner = () => {
   return (
-    <div id="home" className="mb-10 bg-black">
+    <div data-aos="fade-right" id="home" className="mb-10 bg-black">
       <div
         class="hero min-h-screen banner-height"
         style={{ backgroundImage: `url(${cover})` }}

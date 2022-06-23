@@ -5,7 +5,7 @@ const AboutUs = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <div className="container mx-auto my-10">
+    <div id="contuct" className="container mx-auto my-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="rounded-lg">
           <img src={img} alt="" />

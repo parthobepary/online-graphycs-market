@@ -33,24 +33,13 @@ const Navbar = ({ children }) => {
               <div class="flex-none hidden lg:block">
                 <ul class="menu menu-horizontal">
                   <li>
-                    <Link to="home" spy={true} smooth={true}>
-                      Home
-                    </Link>
+                    <a href="#home">Home</a>
                   </li>
                   <li>
-                    <Link to="service" spy={true} smooth={true}>
-                      Our Service
-                    </Link>
+                  <a href="#service">Service</a>
                   </li>
                   <li>
-                    <Link to="about" spy={true} smooth={true}>
-                      About Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="contuct" spy={true} smooth={true}>
-                      Contuct Us
-                    </Link>
+                  <a href="#contuct">Contuct Us</a>
                   </li>
                 </ul>
               </div>
@@ -69,11 +58,6 @@ const Navbar = ({ children }) => {
             <li>
               <Link to="service" spy={true} smooth={true}>
                 Our Service
-              </Link>
-            </li>
-            <li>
-              <Link to="about" spy={true} smooth={true}>
-                About Us
               </Link>
             </li>
             <li>
