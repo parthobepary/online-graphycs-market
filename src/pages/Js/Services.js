@@ -9,9 +9,8 @@ const Services = () => {
         <figure class="px-10 pt-10">
           <img src={img1} alt="Shoes" class="rounded-xl" />
         </figure>
-        <div class="card-body text-left">
+        <div class="card-body mx-auto">
           <h2 class="card-title">Web design</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
           <div class="card-actions mx-auto">
             <button class="btn btn-primary px-10">Enroll now </button>
           </div>
@@ -21,9 +20,8 @@ const Services = () => {
         <figure class="px-10 pt-10">
           <img src={img2} alt="Shoes" class="rounded-xl" />
         </figure>
-        <div class="card-body text-left">
+        <div class="card-body text-center mx-auto">
           <h2 class="card-title">Graphycs design</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
           <div class="card-actions mx-auto">
             <button class="btn btn-primary px-10">Enroll now </button>
           </div>
@@ -33,9 +31,8 @@ const Services = () => {
         <figure class="px-10 pt-10">
           <img src={img3} alt="Shoes" class="rounded-xl" />
         </figure>
-        <div class="card-body text-left">
+        <div class="card-body text-center mx-auto">
           <h2 class="card-title">Digital marketing</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
           <div class="card-actions mx-auto">
             <button class="btn btn-primary px-10">Enroll now </button>
           </div>

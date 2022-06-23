@@ -6,7 +6,6 @@ const Footer = () => {
           <p>
             creative server 24.
             <br />
-            Providing reliable tech since 2022
           </p>
           <p>copyright &copy; from creativeserver24 2022</p>
         </div>

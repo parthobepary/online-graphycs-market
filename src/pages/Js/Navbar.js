@@ -38,7 +38,9 @@ const Navbar = ({ children }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="service" spy={true} smooth={true}>Our Service</Link>
+                    <Link to="service" spy={true} smooth={true}>
+                      Our Service
+                    </Link>
                   </li>
                   <li>
                     <Link to="about" spy={true} smooth={true}>
@@ -58,7 +60,7 @@ const Navbar = ({ children }) => {
         </div>
         <div class="drawer-side">
           <label for="my-drawer-3" class="drawer-overlay"></label>
-         {/*  <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
+          <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
             <li>
               <Link to="home" spy={true} smooth={true}>
                 Home
@@ -79,7 +81,7 @@ const Navbar = ({ children }) => {
                 Contuct Us
               </Link>
             </li>
-          </ul> */}
+          </ul>
         </div>
       </div>
     </div>
